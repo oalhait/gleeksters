@@ -4,8 +4,34 @@
   -o-transition: all .3s ease-in-out;
   -ms-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+  left:50%;
+  right: 50%;
 }
 #div1:hover {
   font-size: 10em;
-  /*padding: 100px;*/
+
+}
+h1 {
+  text-align: center;
+  padding-top:20vh;
+  z-index: 1000;
+}
+.container {
+  width: 100%;
+}
+.chris {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  width:300px;
+  display: block;
+  margin: 0 auto;
+}
+.chris:hover {
+  right:0;
+  top:0;
+  -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+  transform: rotate(360deg);
 }
