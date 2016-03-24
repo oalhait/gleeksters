@@ -9,7 +9,8 @@
 }
 #div1:hover {
   font-size: 10em;
-
+  -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+  transform: rotate(360deg);
 }
 h1 {
   text-align: center;
