@@ -1,7 +1,7 @@
 @keyframes myfirst
 {
   0%   {width:300px;}
-  50%  {width:1000px; z-index:9999999}
+  50%  {width:1000px;}
   100%   {transform:rotate(360deg); }
 }
 #div1 {
@@ -21,7 +21,6 @@
 h1 {
   text-align: center;
   padding-top:10vh;
-  z-index: 1000;
 }
 .container {
   width: 100%;
@@ -35,10 +34,12 @@ h1 {
   width:300px;
   display: block;
   margin: 0 auto;
+  z-index:9999999;
 }
 .chris:hover {
   right:0;
   top:0;
   -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
   transform: rotate(360deg);
+  z-index:9999999;
 }
