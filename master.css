@@ -23,15 +23,19 @@ html * {
 }
 h1 {
   text-align: center;
-  padding-top:5vh;
+  /*padding-top:5vh;*/
   font-family: "Hind:400", sans-serif;
 }
 span {
     font-family: "Hind:400", sans-serif;
 }
 .container {
-  width: 100%;
-  margin: 0 auto;
+  position:fixed;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  height:70vh;
+  width:70%;
 }
 .centerimg {
     height: 50vh;
