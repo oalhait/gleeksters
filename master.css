@@ -1,3 +1,6 @@
+html * {
+    font-family: Roboto sans-serif;
+}
 @keyframes myfirst
 {
   0%   {width:200px;}
@@ -20,10 +23,21 @@
 }
 h1 {
   text-align: center;
-  padding-top:10vh;
+  padding-top:5vh;
+  font-family: "Hind:400", sans-serif;
+}
+span {
+    font-family: "Hind:400", sans-serif;
 }
 .container {
   width: 100%;
+  margin: 0 auto;
+}
+.centerimg {
+    height: 50vh;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .chris {
   -webkit-animation: myfirst 1.5s linear infinite;
