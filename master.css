@@ -1,7 +1,7 @@
 @keyframes myfirst
 {
-  0%   {width:300px;}
-  50%  {width:1000px;}
+  0%   {width:200px;}
+  50%  {width:500px;}
   100%   {transform:rotate(360deg); }
 }
 #div1 {
